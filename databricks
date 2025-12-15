@@ -1,0 +1,32 @@
+# Databricks – Data Processing
+
+## Overview
+Databricks notebooks are used to transform data from Bronze to Silver and Gold layers using Delta Lake.
+
+---
+
+## Bronze
+- CSV to Delta conversion
+- Schema inference
+- Partitioning by league
+
+---
+
+## Silver
+- Data cleansing
+- Type casting
+- Data standardization
+
+---
+
+## Gold
+- Fact and dimension modeling
+- Analytical tables
+- Optimized for Power BI consumption
+
+---
+
+## Best Practices Applied
+- Delta Lake ACID compliance
+- Idempotent writes
+- Modular notebooks
