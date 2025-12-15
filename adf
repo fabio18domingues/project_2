@@ -1,0 +1,40 @@
+# Azure Data Factory – Ingestion Layer
+
+## Purpose
+Azure Data Factory is used to orchestrate the ingestion of football data from Azure Blob Storage into Microsoft Fabric OneLake.
+
+---
+
+## Ingestion Strategy
+- Metadata-driven ingestion using a control table
+- One pipeline processes all leagues dynamically
+- No hardcoded paths or filenames
+- Supports FULL and INCREMENTAL loads
+
+---
+
+## Control Table
+The ingestion process is driven by a SQL control table containing:
+- League name
+- Source path
+- File pattern
+- Load type
+- Last loaded timestamp
+- Target OneLake path
+
+---
+
+## Pipeline Logic
+1. Read control table
+2. Loop through active leagues
+3. Discover files dynamically
+4. Apply incremental logic when applicable
+5. Load data into OneLake (Files)
+6. Update control metadata
+
+---
+
+## Benefits
+- Highly scalable
+- Easy to extend to new leagues or datasets
+- Enterprise-ready orchestration pattern
