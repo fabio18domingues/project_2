@@ -1,0 +1,7 @@
+PartitionKey;RowKey;Timestamp;file_pattern;file_pattern@type;last_loaded_datetime;last_loaded_datetime@type;league_name;league_name@type;load_type;load_type@type;source_path;source_path@type;target_path;target_path@type
+1;1;2025-12-15T14:38:44.6788648Z;*.csv;;2025-12-15T14:38:44.653814+00:00;;PremierLeague;;FULL;;DataSource/PremierLeague;;delta/bronze/PremierLeague;
+2;2;2025-12-15T14:38:46.0010526Z;*.csv;;2025-12-15T14:38:45.974419+00:00;;LaLiga;;FULL;;DataSource/LaLiga;;delta/bronze/LaLiga;
+3;3;2025-12-15T14:38:34.9257349Z;*.csv;;2025-12-15T14:38:34.898684+00:00;;Liga1;;FULL;;DataSource/Liga1;;delta/bronze/Liga1;
+4;4;2025-12-15T14:38:55.1677602Z;*.csv;;2025-12-15T14:38:55.138733+00:00;;Ligue1;;FULL;;DataSource/Ligue1;;delta/bronze/Ligue1;
+5;5;2025-12-15T14:38:31.2469054Z;*.csv;;2025-12-15T14:38:31.207802+00:00;;SerieA;;FULL;;DataSource/SerieA;;delta/bronze/SerieA;
+6;6;2025-12-15T14:38:26.1154613Z;*.csv;;2025-12-15T14:38:26.085946+00:00;;Bundesliga;;FULL;;DataSource/Bundesliga;;delta/bronze/Bundesliga;
