@@ -1,0 +1,5 @@
+CREATE TABLE dbo.dim_teams (
+    ID_TEAM INT PRIMARY KEY,
+    TEAM_NAME NVARCHAR(255),
+    ID_LEAGUE INT
+);
