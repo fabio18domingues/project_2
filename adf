@@ -14,7 +14,7 @@ Azure Data Factory is used to orchestrate the ingestion of football data from Az
 ---
 
 ## Control Table
-The ingestion process is driven by a SQL control table containing:
+The ingestion process is driven by an Azure Table Storage table containing:
 - League name
 - Source path
 - File pattern
