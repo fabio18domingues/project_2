@@ -1,7 +1,0 @@
-PartitionKey;RowKey;Timestamp;file_pattern;file_pattern@type;last_loaded_datetime;last_loaded_datetime@type;league_name;league_name@type;load_type;load_type@type;source_path;source_path@type;target_path;target_path@type
-1;1;2025-12-08T16:58:34.1814721Z;*.csv;;NULL;;PremierLeague;;FULL;;DataSource/PremierLeague;;delta/bronze/PremierLeague;
-2;2;2025-12-08T16:58:39.6953167Z;*.csv;;NULL;;LaLiga;;FULL;;DataSource/LaLiga;;delta/bronze/LaLiga;
-3;3;2025-12-08T22:15:19.2513298Z;*.csv;;NULL;;Liga1;;FULL;;DataSource/Liga1;;delta/bronze/Liga1;
-4;4;2025-12-08T22:16:09.7151167Z;*.csv;;NULL;;Ligue1;;FULL;;DataSource/Ligue1;;delta/bronze/Ligue1;
-5;5;2025-12-08T22:16:46.8218365Z;*.csv;;NULL;;SerieA;;FULL;;DataSource/SerieA;;delta/bronze/SerieA;
-6;6;2025-12-08T22:17:27.6371177Z;*.csv;;NULL;;Bundesliga;;FULL;;DataSource/Bundesliga;;delta/bronze/Bundesliga;
