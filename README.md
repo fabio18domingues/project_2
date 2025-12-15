@@ -37,6 +37,15 @@ The platform follows a modern Lakehouse architecture with Bronze, Silver, and Go
 
 ---
 
+## Ingestion Control
+The ingestion framework is metadata-driven and uses Azure Table Storage as the control layer.
+
+Azure Table Storage was selected as a lightweight, scalable, and cost-effective solution for managing ingestion metadata such as load type, source paths, and incremental state.
+
+This approach is commonly used in Azure-native data platforms.
+
+---
+
 ## Data Processing
 The solution follows the **Medallion Architecture**:
 
